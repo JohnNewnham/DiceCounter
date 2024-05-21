@@ -1,4 +1,4 @@
-# jen 18/5/2024
+# jen 21/5/2024
 
 import json
 import math
@@ -34,7 +34,7 @@ class Window():
         # Set up basics for window.
         self.root = tk.Tk()
         self.root.title("Dice Counter")
-        self.root.iconbitmap(default="icon.ico")
+        self.root.iconphoto(False, tk.PhotoImage(file="icon.png"))
 
         # Create a list for frames and a dictionary to hold string variables for the output.
         self.frame_list = []
